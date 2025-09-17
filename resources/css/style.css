@@ -10,8 +10,10 @@ html {
     font-size: 16px;
     background-color: #333;
 }
+
 main {
-    padding-top: 5rem; /* To prevent content from being hidden behind the fixed header */
+    padding-top: 5rem;
+    /* To prevent content from being hidden behind the fixed header */
 }
 
 header {
@@ -45,4 +47,47 @@ nav li {
 nav {
     float: right;
     text-align: center;
+}
+
+.contentSection {
+    padding: 2rem 1.25rem;
+    background-color: #444;
+    color: white;
+    margin: 0 40px;
+    border: 1px solid wheat;
+}
+
+.mainSection {
+    margin-bottom: 3rem;
+}
+
+p {
+    margin: 1rem 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.skillslist {
+    display: flex;
+}
+
+
+.skills-lists-row {
+    display: flex;
+    gap: 10rem;
+    justify-content: flex-start;
+}
+
+.skills-lists-row ul {
+    margin-left: 1.2rem;
+    list-style-type: disc;
+}
+
+.projectsList ul {
+    list-style-type: disc;
+    margin-left: 1.2rem;
+}
+
+.contentSection h3,h2 {
+    margin-bottom: 1rem;
 }
